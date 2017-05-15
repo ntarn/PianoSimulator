@@ -6,6 +6,11 @@ import javax.swing.JPanel;
 
 import org.jfugue.realtime.RealtimePlayer;
 
+/**
+ * This class represents the keyboard of a piano that has different keys that can be played.
+ * @author Jocelyn
+ *
+ */
 public class Keyboard extends JPanel implements KeyListener{
 
 	private Key[] keys;

@@ -1,6 +1,11 @@
 import org.jfugue.realtime.RealtimePlayer;
 import org.jfugue.theory.Note;
 
+/**
+ * This class represents a key on the keyboard of a piano that can play a note.
+ * @author Jocelyn
+ *
+ */
 public class Key {
 	
 	private RealtimePlayer player;
@@ -14,7 +19,9 @@ public class Key {
 	 */
 	public Key(int midi, RealtimePlayer play)
 	{
-		
+		player = play;
+		note = new Note(midi);
+		isPlaying = false;
 	}
 	
 	/**
@@ -23,7 +30,10 @@ public class Key {
 	 */
 	public void play()
 	{
-		
+		if(!isPlaying)
+		{
+			
+		}
 	}
 	
 	/**
