@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 /**
-* This class stores all the accuracy scores thatthe player has for a certain song.
+* This class stores all the accuracy scores that the player has for a certain song.
 * @author Natalie Tarn
 */
 public class Score {
